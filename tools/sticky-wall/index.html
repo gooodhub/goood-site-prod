@@ -33,6 +33,9 @@ ga('create', 'UA-70741563-1', 'auto');
 ga('send', 'pageview');
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js' ></script>
+<script src='/js/jquery.bxslider.min.js'></script>
+ <link rel="stylesheet" href="/css/jquery.bxslider.css">
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -100,7 +103,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="main-wrapper">
     <div class="wrap">
 
-<div class="slide" id="toolitem">
+<div class="slide" id="toolitem" itemscope itemtype="http://schema.org/Product" >
     <a class="logo" href="/">
       <svg version="1.1" id="Logo_Goood_blanc_copie_2" x="0px" y="0px" viewBox="0 0 147 71" style="enable-background:new 0 0 147 71;" xml:space="preserve">
     <style type="text/css">
@@ -151,10 +154,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     Le mur collant seul pour animer vos réunions d&#x27;équipe
                </header>    
         </section>-->
-        <section class="toolitem">
+        <section class="toolitem" >
             <div class="row">
               <div class="toolitem__content_fullsize"> 
-                    <div class="w3-content w3-display-container">
+                  <meta itemprop="name" content="Sticky Wall" />
+                  <meta itemprop="brand" content="Goood!" />
+                  <meta itemprop="description" content="Le Sticky Wall ou mur collant seul pour animer vos réunions d&#x27;équipe" />
+                   <meta itemprop="identifier" content="sticky-wall" />
+                    <meta itemprop="image" content="/images/toolkits/kit-sticky.jpg" />
+                  
+                  
+                    <div class="w3-content w3-display-container" >
             
                             <div class="w3-display-container mySlides">
                                 <img src="/images/toolkits/kit-sticky.jpg" alt="Sticky Wall" width="600px" style="width:100%" />
@@ -180,13 +190,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     </div>
                </div><!--End toolitem__content_fullsize -->
-                <div class="toolitem__price">
-                    
+                <div class="toolitem__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                     <meta itemprop="priceCurrency" content="EUR" />
+                     <meta itemprop="price" content="49.2" />
+                     
                     <h1>41€ HT</h1>
-                    <p>49.20€ TTC <br>                
+                    <p  >49.2€ TTC <br>                
                     TVA : 20%</p>
                    
-                    <H2>En stock</H2>
+                    <H2 itemprop="availability" href="http://schema.org/InStock">En stock</H2>
                     <!-- InStock-->
                     <p>Le produit vous sera expédié sous 5 jours ouvrés.</p>
                     <!-- IsDelivery -->
@@ -211,7 +223,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 
             </div>
              <div class="row">
-                  <div class="toolitem__content">                    
+                  <div class="toolitem__content" >                    
                      <p>Descriptif:</p>
 <ul>
 <li>Un tissu bleu foncé avec ourlets et le Logo Goood! sur les 2 faces</li>
@@ -219,7 +231,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li>Largeur: 1,15m</li>
 </ul>
 <p>La colle n’est pas incluse. Vous pouvez la trouver facilement dans le commerce (OfficeDepot, Amazon,...). Ref : Colle repositionnable 3M</p>
-
+<h2 id="comment-monter-votre-sticky-wall-">Comment monter votre sticky wall?</h2>
+<p> Sylvia vous donne sa méthode et ses conseils pour bien monter votre sticky wall.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sjWhlP04Yes" frameborder="0" allowfullscreen></iframe>
                </div><!--End toolitem__content -->
              
              </div>
