@@ -26,18 +26,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KRR6F7H');</script>
 <!-- End Google Tag Manager -->
-
-<!-- Hotjar Tracking Code for www.goood.pro -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:567402,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
   
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -101,13 +89,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="nav__menu">
         <a href="/"><i class="fa fa-home"></i> Vision</a>
         <a href="/recette-magique/">Recette magique</a>
-        <!--<a href="/savoir-faire/">Savoirs faire</a>-->
+        <a href="/savoir-faire/">Savoir-faire</a>
         <a href="/references/">Références</a>
         <a href="/equipe-et-culture/">Équipe et culture</a>
         <a class="secondary" href="/recrutement/">Nous rejoindre</a>
         <a class="secondary" href="/agenda/">Agenda</a>
         <a class="secondary" href="/formations/">Formations</a>
-        <a class="secondary" href="/toolkit/">Tooolkit</a>
+        <a class="secondary" href="/toolkit/">Tooolkit</a>        
         <a class="secondary" href="/contact/">Contacts</a>
         <a class="secondary" href="http://blog.goood.pro/">Blog  <i class="fa fa-external-link"></i></a>
       </div>
@@ -165,7 +153,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        <!-- <section class="toolitem">
                <header class="toolitem__header">
                     Une formation, un événement communautaire ou tout simplement besoin de sortir du cadre, nos locaux Goood Sud peuvent vous accueillir.
-               </header>    
+               </header>   
         </section>-->
         <section class="toolitem" >
             <div class="row">
@@ -262,7 +250,7 @@ Un espace comme à la maison, avec une salle propice pour faciliter l’intellig
 <li>Equipements: sticky wall, télévision avec caméra et micro pour les vidéos/conférences, posts-its, paper boards, wifi.</li>
 <li>Le café est offert</li>
 </ul>
-<h2 id="pour-connaitre-les-disponibilit-s-envoyez-nous-un-mail-sud-goood-pro-">Pour connaitre les disponibilités, envoyez-nous un mail à <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#x3a;&#x73;&#x75;&#x64;&#x40;&#x67;&#111;&#x6f;&#111;&#100;&#x2e;&#112;&#114;&#x6f;">&#x73;&#x75;&#x64;&#x40;&#x67;&#111;&#x6f;&#111;&#100;&#x2e;&#112;&#114;&#x6f;</a></h2>
+<h2 id="pour-connaitre-les-disponibilit-s-envoyez-nous-un-mail-sud-goood-pro-">Pour connaitre les disponibilités, envoyez-nous un mail à <a href="&#109;&#97;&#105;&#x6c;&#116;&#x6f;&#58;&#x73;&#x75;&#100;&#x40;&#x67;&#111;&#x6f;&#x6f;&#x64;&#x2e;&#112;&#114;&#111;">&#x73;&#x75;&#100;&#x40;&#x67;&#111;&#x6f;&#x6f;&#x64;&#x2e;&#112;&#114;&#111;</a></h2>
 <h3 id="evenements-gratuits-communautes">EVENEMENTS GRATUITS / COMMUNAUTES</h3>
 <p>Goood! est très impliqué dans les différentes communautés Agile et Techniques. C’est pourquoi pour les évènements communautaires et sans but lucratif, nous offrons la location. Merci de nous contacter par mail pour plus de précisions.</p>
 <p>Adresse:
@@ -497,6 +485,18 @@ function showDivs(n) {
     }
   }
 }( this ));
+
+
+// formation slider must be at the end to prevent any error of js loading order
+$(document).ready(function(){
+  $('.slider1').bxSlider({
+    slideWidth: 280,
+    minSlides: 1,
+    maxSlides: 3,
+	moveSlides: 1,
+    slideMargin: 10
+  });
+});
   </script>
 </body>
 </html>

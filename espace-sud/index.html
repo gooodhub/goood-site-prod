@@ -26,18 +26,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KRR6F7H');</script>
 <!-- End Google Tag Manager -->
-
-<!-- Hotjar Tracking Code for www.goood.pro -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:567402,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
   
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -101,13 +89,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="nav__menu">
         <a href="/"><i class="fa fa-home"></i> Vision</a>
         <a href="/recette-magique/">Recette magique</a>
-        <!--<a href="/savoir-faire/">Savoirs faire</a>-->
+        <a href="/savoir-faire/">Savoir-faire</a>
         <a href="/references/">Références</a>
         <a href="/equipe-et-culture/">Équipe et culture</a>
         <a class="secondary" href="/recrutement/">Nous rejoindre</a>
         <a class="secondary" href="/agenda/">Agenda</a>
         <a class="secondary" href="/formations/">Formations</a>
-        <a class="secondary" href="/toolkit/">Tooolkit</a>
+        <a class="secondary" href="/toolkit/">Tooolkit</a>        
         <a class="secondary" href="/contact/">Contacts</a>
         <a class="secondary" href="http://blog.goood.pro/">Blog  <i class="fa fa-external-link"></i></a>
       </div>
@@ -417,6 +405,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     }
   }
 }( this ));
+
+
+// formation slider must be at the end to prevent any error of js loading order
+$(document).ready(function(){
+  $('.slider1').bxSlider({
+    slideWidth: 280,
+    minSlides: 1,
+    maxSlides: 3,
+	moveSlides: 1,
+    slideMargin: 10
+  });
+});
   </script>
 </body>
 </html>
