@@ -26,8 +26,8 @@ const goood = () => {
   function bindEvents() {
     if (currentPage) {
       currentPage.onEnterCompleted();
-      currentPage.getDOMElement().classList.add('slide--iosFix');
     }
+    $('body,html').css('-webkit-overflow-scrolling','touch');
   }
 };
 
