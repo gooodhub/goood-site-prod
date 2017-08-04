@@ -27,7 +27,8 @@ const goood = () => {
     if (currentPage) {
       currentPage.onEnterCompleted();
     }
-    $('body,html').css('-webkit-overflow-scrolling','touch');
+    var slide = $('.slide');
+    if(slide) slide.css('-webkit-overflow-scrolling','touch');
   }
 };
 
