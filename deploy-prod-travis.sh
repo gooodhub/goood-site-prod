@@ -20,7 +20,7 @@ then
 	rm -rf beta
 fi
 
-echo "### Récupération de la version actuellement en beta ###"
+echo "### Récupération de la version actuellement en beta sur $GITURLBETA ###"
 git clone $GITURLBETA beta
 cd beta
 git checkout -b versionBeta tags/$versionBeta
