@@ -188,6 +188,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 ## Public concerné ##
 Ce stage s’adresse aux managers, chefs de projet, consultants, formateurs, équipes marketing, équipes et commerciales.
 
+             
            
 
             </div>
@@ -197,7 +198,7 @@ Ce stage s’adresse aux managers, chefs de projet, consultants, formateurs, éq
                  <div class="bloc_icon"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i></div>
                  <div class="bloc_label"><p class=""><b> 14 heures</b> </p></div>
                 </div>
-                <div class="info">
+                <div class="info" pdf>
                  <div class="bloc_icon"><i class="fa fa-users fa-2x" aria-hidden="true"></i></div>
                  <div class="bloc_label"><p class=""> <b> 10 participants</b> </p></div>
                 </div>
@@ -217,10 +218,11 @@ Ce stage s’adresse aux managers, chefs de projet, consultants, formateurs, éq
                    <b>4 000 HT</b> / groupe <span class="bleu">uniquement pour votre entreprise!</span>
                        </p></div>
                 </div>
-                
+                        
 
                  <a href="#incriptionform" class="btn btn-white">Contactez-nous</a>  
-                 
+                         
+                
             </div>
               
             <div class="lesplus">

@@ -201,6 +201,7 @@ Si votre projet se situe hors informatique, vous saurez comment adapter Scrum po
 ## Public concerné ##
 Ce stage s’adresse aux décideurs, managers, directeurs de projet, responsables produit, accompagnateurs du changement, RH et consultants.
 
+             
            
 
             </div>
@@ -210,7 +211,7 @@ Ce stage s’adresse aux décideurs, managers, directeurs de projet, responsable
                  <div class="bloc_icon"><i class="fa fa-clock-o fa-2x" aria-hidden="true"></i></div>
                  <div class="bloc_label"><p class=""><b> 14 heures</b> </p></div>
                 </div>
-                <div class="info">
+                <div class="info" pdf>
                  <div class="bloc_icon"><i class="fa fa-users fa-2x" aria-hidden="true"></i></div>
                  <div class="bloc_label"><p class=""> <b> 10 participants</b> </p></div>
                 </div>
@@ -230,10 +231,11 @@ Ce stage s’adresse aux décideurs, managers, directeurs de projet, responsable
                    <b>4 500 HT</b> / groupe <span class="bleu">uniquement pour votre entreprise!</span>
                        </p></div>
                 </div>
-                
+                        
 
                  <a href="#incriptionform" class="btn btn-white">Contactez-nous</a>  
-                 
+                         
+                
             </div>
               
             <div class="lesplus">
